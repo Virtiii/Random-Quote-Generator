@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .app {
   position: relative;
   width: 100%;
@@ -29,11 +31,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  width: 50vw;
+  max-width: 90%
 }
 
 .center-image img {
   display: block;
-  max-width: 90%;
+  max-width: 85%;
   max-height: 90%;
   margin: 0 auto;
   border-radius: 15px;
@@ -44,15 +48,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px; /* Set the width of the card container */
+  width: 90%; /* Set the width of the card container */
 }
 
 .card-content {
-  font-size: 30px;
+  font-size: 2.5vw;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 2vw;
   font-weight: bold;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .card.back {
